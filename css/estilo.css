@@ -1,0 +1,92 @@
+/*principal*/
+
+body {
+    background-color: #EDDDD4;
+}
+
+h1 {
+    text-align: center;
+}
+
+/* tabla*/
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 5px solid #283d3b;
+    padding: 10px;
+}
+
+th {
+    background-color: #197278;
+    color: #c3eaec;
+}
+
+tr:nth-child(even) {
+    background-color: #89bd9e;
+}
+
+tr:nth-child(odd) {
+    background-color: #e49a92;
+}
+
+/* si*/
+
+#text-container h2 {
+    text-align: center;
+    font-size: 45px;
+    color: #c44536;
+}
+
+.nanabb {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.nanabb img {
+    margin: 10px;
+}
+
+#nana1 {
+    width: 450px;
+}
+
+#nana2 {
+    width: 28rem;
+}
+
+#nana3 {
+    width: 26%;
+}
+
+/* p*/
+
+#si {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#si p:nth-child(1) {
+    margin-left: 350px;
+    float: left;
+}
+
+#si p:nth-child(2) {
+    margin-left: -250px;
+    text-align: center;
+}
+
+#si p:nth-child(3) {
+    float: right;
+}
